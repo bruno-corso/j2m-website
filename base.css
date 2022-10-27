@@ -1,0 +1,44 @@
+@import url(./css/evento.css);
+@import url(./css/cabecalho.css);
+@import url(./css/galeria.css);
+@import url(./css/sobre-evento.css);
+@import url(./css/sobre-nos.css);
+@import url(./css/contato.css);
+
+:root{
+    --fonte-icone: 'Gelasio', serif;
+    --fonte-mensagem: 'Roboto', sans-serif;
+    --verde-escuro: #313628;
+    --preto: #000;
+    --cinza-escuro: #595358;
+    --cinza: #857f74;
+    --verde-cinza: #A4AC96;
+    --verde-pastel: #CADF9E;
+    --branco: #fff;
+    --cinza-claro: #E5E4E2;
+}
+
+body{
+    font-family: var(--fonte-mensagem);
+    color: var(--preto);
+    font-size: 16px;
+    /* background-image: linear-gradient(var(--verde-pastel), var(--branco)); */
+    /* background-color: var(--cinza-claro); */
+    padding: 0 4rem;
+    letter-spacing: 2px;
+}
+
+.rodape{
+    padding: 2rem;
+}
+
+.rodape__texto{
+    font-family: var(--fonte-icone);
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.rodape__link{
+    text-decoration: none;
+    color: var(--cinza);
+}

@@ -1,0 +1,12 @@
+.galeria{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.galeria__imagem{
+    width: 90%;
+    margin-bottom: 1.5rem;
+    border-radius: 10px;
+}

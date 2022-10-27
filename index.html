@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>J2M | Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gelasio:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./base.css">
+    <link rel="stylesheet" href="./reset.css">
+  </head>
+  <body>
+    <header class="cabecalho">
+        <nav class="cabecalho__nav">
+            <div class="cabecalho__marca">
+                <img src="./img/logo.svg" alt="logo marca J2M" class="cabecalho__logo">
+                <p class="cabecalho__nome">J2M</p>
+            </div>
+            <ul class="cabecalho__lista">
+                <li class="cabecalho__item"><a href="#" class="cabecalho__link">Sobre o evento</a></li>
+                <li class="cabecalho__item"><a href="#" class="cabecalho__link">Sobre nós</a></li>
+                <li class="cabecalho__item"><a href="#" class="cabecalho__link">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="evento">
+      <div class="evento__texto">
+        <p class="evento__mensagem">"A experiência de fazer parte de um evento esportivo premium..."</p>
+        <ul class="evento__lista">
+            <li class="evento__item">Conheça grandes nomes da história do seu time;</li>
+            <li class="evento__item">Pergunte o que sempre quis saber sobre os bastidores do futebol;</li>
+            <li class="evento__item">Participe de um evento exclusivo com direito a bufê, famosos do esporte e brindes;</li>
+        </ul>
+      </div>
+      <!-- <img src="./img/mesa-redonda.jpg" alt="" class="evento__imagem"> --> -->
+    </section>
+
+    <section class="galeria">
+      <img src="./img/mesa-redonda.jpg" alt="homens na mesa redonda" class="galeria__imagem">
+      <img src="./img/entrevista.webp" alt="palestrante na palestra" class="galeria__imagem">
+    </section>
+
+    <section class="sobre-evento">
+      <h2 class="sobre-evento__titulo">Sobre a J2M</h2>
+      <p class="sobre-evento__texto">A empresa J2M cria eventos exclusivos com atrações esportivas, a fim de oferecer a seu público a oportunidade de conhecer um pouco mais sobre seus ídolos e clubes de paixão. Jogadores, ex-jogadores, radialistas, comunicadores e até integrantes da comissão técnica fazem parte dos eventos, criando ambientes de bate-papo interativo em que grandes histórias e conquistas são relembradas. Os eventos são realizados por equipes profissionais e incluem bufê, comunicação, fotografia, filmagem e brindes.</p>
+      <p class="sobre-evento__texto">O público-alvo da J2M são empresas de médio a grande porte. Dessa forma, a negociação é feita no formato b2b, e as empresas selecionadas tem a oportunidade de comprar cotas (mesas) dos eventos realizado pela J2M. Tais cotas incluem ainda a divulgação da marca em painéis de led e todo o registro (foto + imagem) do evento envolvendo seus convidados participantes.</p>
+    </section>
+
+    <section class="galeria">
+      <img src="./img/mesa-redonda.jpg" alt="homens na mesa redonda" class="galeria__imagem">
+      <img src="./img/entrevista.webp" alt="palestrante na palestra" class="galeria__imagem">
+    </section>
+
+    <section class="sobre-nos">
+      <div class="sobre-nos__card">
+        <img src="./img/visao.png" alt="icone visao" class="sobre-nos__imagem">
+        <span class="sobre-nos__txt">Ser referência no mercado de eventos esportivos com objetivo de valorização da marca.</span>
+      </div>
+      <div class="sobre-nos__card">
+        <img src="./img/missao.png" alt="icone missao" class="sobre-nos__imagem">
+        <span class="sobre-nos__txt">Auxiliar nosso cliente a criar valor para sua empresa e valorizar sua marca através dos nossos serviços.</span>
+      </div>
+      <div class="sobre-nos__card">
+        <img src="./img/valores.png" alt="icone valores" class="sobre-nos__imagem">
+        <span class="sobre-nos__txt">Atuar com respeito, ética e honestidade. Dedicação máxima ao cliente. Qualidade no serviço prestado.</span>
+      </div>
+    </section>
+
+    <form action="" class="contato">
+      <h4 class="contato__titulo">Contato</h4>
+      <label for="nome" class="contato__label">Nome</label>
+      <input type="text" class="contato__input" required name="nome" placeholder="Escreva seu nome...">
+      <label for="email" class="contato__label">E-mail</label>
+      <input type="email" required class="contato__input" name="email" placeholder="email@email.com">
+      <label for="msg" class="contato__label">Mensagem</label>
+      <textarea name="msg" id="msg" required cols="30" rows="10" class="contato__textarea" placeholder="Escreva aqui sua mensagem..."></textarea>
+      <button class="contato__botao">Enviar</button>
+    </form>
+
+    <footer class="rodape">
+      <p class="rodape__texto"><a class="rodape__link" href="https://github.com/bruno-corso" >© Desenvovido por BTC - 2022</a></p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</html>

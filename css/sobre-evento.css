@@ -1,0 +1,22 @@
+.sobre-evento{
+    margin: 0 1rem;
+}
+
+.sobre-evento__titulo{
+    color: var(--verde-escuro);
+    text-align: initial;
+    font-weight: bold;
+    font-size: 32px;
+    margin-bottom: 1rem;
+    text-shadow: 0.2px 0.2px var(--preto);
+    font-family: 'Ubuntu';
+    letter-spacing: 2px;
+}
+
+.sobre-evento__texto{
+    color: var(--verde-escuro);
+    text-align: justify;
+    margin-bottom: 1rem;
+    letter-spacing: 1.2px;
+    line-height: 1rem;
+}

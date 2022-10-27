@@ -1,0 +1,22 @@
+.sobre-nos{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.sobre-nos__card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.sobre-nos__imagem{
+    width: 30%;
+    margin-bottom: 1rem;
+}
+
+.sobre-nos__txt{
+    text-align: center;
+    color: var(--preto);
+}
