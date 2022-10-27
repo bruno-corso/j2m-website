@@ -20,3 +20,19 @@
     text-align: center;
     color: var(--preto);
 }
+
+@media screen and (min-width: 767px) {
+    .sobre-nos{
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 4rem;
+    }
+
+    .sobre-nos__card{
+        width: 30%;
+    }
+
+    .sobre-nos__imagem{
+        width: 100px;
+    }
+}

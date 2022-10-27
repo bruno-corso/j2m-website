@@ -10,3 +10,15 @@
     margin-bottom: 1.5rem;
     border-radius: 10px;
 }
+
+@media screen and (min-width: 767px) {
+    .galeria{
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 6rem;
+    }
+
+    .galeria__imagem{
+        width: 35%;
+    }
+}
