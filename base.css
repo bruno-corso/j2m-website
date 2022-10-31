@@ -42,3 +42,17 @@ body{
     text-decoration: none;
     color: var(--cinza);
 }
+
+.video{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3rem 5%;
+}
+
+@media screen and (min-width: 767px) {
+    .video{
+        margin: 3rem 20%;
+    }
+    
+}
